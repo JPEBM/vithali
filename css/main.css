@@ -1,0 +1,731 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,700&display=swap');
+
+
+
+*{
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.main-body
+{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    
+
+}
+
+#pi-all
+{
+    height: 100vh;
+ 
+}
+
+
+.section-2
+{
+    background-color:  rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 1fr;
+   
+}
+
+.section-2-main
+{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+
+
+.section-2-1
+{
+    margin: 2em;
+    box-sizing: border-box;
+    height: 70%;
+    ;
+    /*
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;*/
+}
+
+.video-2-1
+{
+   width: 100%;
+   height: 100%; 
+}
+/*
+.section-2-1 iframe, .section-2-1 object, .section-2-1 embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+*/
+.section-2-2
+{
+    margin: 1em;
+    box-sizing: border-box;
+}
+
+.section-2 h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+.section-2-2 p , .section-2-2 a
+{
+    /*font-family: 'Work Sans', sans-serif;*/
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color:#000000;
+    font-size:1.3em;
+    line-height: 1.3em;
+ 
+
+}
+
+.section-2-2 b
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+.section-2-2-button
+
+{    margin-top: 1em;;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+   
+}
+
+.section-2-2-button a
+
+{    margin-top: 1em;
+    padding: .5em;
+    border: solid black .02em;
+     text-decoration: none;
+     display: line;
+     text-align: center;
+     transition: .3s;
+}
+
+.section-2-2-button a:hover
+{
+    background-color: rgb(143, 209, 239);
+    color: white;
+    
+}
+.section-3
+{    
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color:rgb(255, 255, 255);
+    height: auto;
+    
+}
+
+.section-3-box
+{
+    display: grid;
+    grid-template-columns: auto ;
+}
+
+.section-3-button
+{
+    padding: 1.5em 0 ;
+    margin: 0 .9em;
+    text-align: center;
+   
+    
+}
+
+
+
+.section-3-h1 h1
+{
+    
+    font-size: 4em;
+    font-weight: bold;
+    line-height: .9em;
+    color: rgb(78, 78, 78);
+    font-family: 'Nunito', sans-serif;
+    margin: .5em 0 .5em 1em;
+    text-align: justify;
+    
+   
+}
+.section-3-main
+
+{
+    position: relative;
+}
+
+
+
+
+
+
+.demo
+{
+    margin: 2em;
+}
+
+.section-4
+{
+   
+    box-sizing: border-box;
+}
+.section-4-main
+
+{   
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    
+}
+.section-4-1
+{
+    text-align: center;
+}
+
+.section-4-1 img
+{    
+    
+    width: 100%;
+    height: 100%;
+    padding: 3em;
+    box-sizing: border-box;
+}
+
+.section-4-2
+{
+    display: grid;
+    grid-template-rows:.3fr .3fr ;   
+    align-content: space-around;
+    text-align: center;
+    margin-right: 2em;
+}
+
+.section-4-2-main-1, .section-4-2-main-2
+{
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+.section-4-2-box-1
+{
+    background-color: rgb(143,209,239);
+    padding: .5em;
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.section-4-2-box-2
+{
+    background-color: rgb(143,209,239 );
+    padding: .5em;
+    margin-top: 2em;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-4-2-box-1 p
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+ 
+    margin: .2em 0 .1em .2em;
+    text-align: justify;
+}
+
+.section-4-2-box-2 p
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    color:  rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+    
+    text-align: justify;
+}
+.section-4-2-box-1-1, .section-4-2-box-2-1
+{
+    margin-top: 2em;
+    margin-left: 1em;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+
+
+.section-4-2-box-1-1 p, .section-4-2-box-2-1 p
+{
+
+margin-left: 1em;
+
+}
+.section-4-2-box-1-1 ul li
+{
+margin-top: 1em;
+text-align: left;
+font-size: 1em;
+font-family: 'Quicksand', sans-serif;
+
+}
+
+.section-4-2-box-1-1 ul li::before
+{
+    content: "\2713";
+    font-size: 1.5em;
+}
+
+.section-4-2-box-2-1 ul li::before
+{
+    content: "\2713";
+    font-size: 1.5em;
+}
+.section-4-2-box-2-1 ul li
+{
+    margin-top: 1em;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+.section-5
+
+{
+    /*background-color:  rgb(147, 193, 33);*/
+    
+   
+}
+
+.section-5-main
+
+{
+    
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    
+}
+
+
+.section-5-1
+{
+ align-self: center;
+}
+
+
+.section-5-2
+{
+    width: 100%;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: .5em;
+    padding-bottom: 2em;
+}
+
+.section-5-1 h1
+{ 
+    font-size: 4em;
+    font-weight: bold;
+    line-height: .9em;
+    color: rgb(78, 78, 78);
+    font-family: 'Nunito', sans-serif;
+    margin: .5em 0 .5em 1em;
+}
+
+.section-5-2 p
+{
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.section-5-3 .learn-more p
+{
+    font-size: 1em;
+}
+.section-5-3 button .fab.fa-whatsapp
+{
+    font-size: 1.2em; 
+}
+
+button .learn-more
+{
+    padding-left: 100em;
+}
+
+.section-6
+{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.section-6-main
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    
+}
+
+.section-6-main h4
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+.section-6-main p
+{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.section-6-main a
+{
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ .section-6-main a:link
+ {
+     color: black;
+ }
+
+ .section-6-main a:visited
+ {
+     color: black;
+ }
+.section-6-3 .fab
+{
+    font-size: 2em;
+}
+
+.section-6-4 img
+{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media all and (max-width: 1024px) {
+
+    .section-2-1
+{
+    margin: 2em;
+    box-sizing: border-box;
+    height: 70%;
+}
+
+
+.section-2-2 p , .section-2-2 a
+{
+   
+    
+    color:#000000;
+    font-size:1.5em;
+    line-height: 1.2em;
+    
+}
+
+
+.section-2-2-button
+
+{    margin-top: 1em;
+     display: block;
+     text-align: center;
+}
+
+ 
+
+
+.section-3-h1 h1
+{
+    font-size: 5.5em;   
+}
+
+
+}
+
+@media all and (max-width: 768px) {
+
+    
+    .section-2-1
+    {
+    
+    margin: 0;
+    width: 100%;
+    height:  100%;
+    }
+
+    .video-2-1
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .section-2-2
+    {
+    margin: 1em;
+    padding-top: 5%;
+    box-sizing: border-box;
+    height: 100%;
+    
+    }   
+    
+    .section-2-main
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .8fr auto;
+        align-items: center;
+      
+    }
+    
+    .section-2-2 p , .section-2-2 a
+    {
+            color:#000000;
+            font-size:1.2em;          
+    }
+    
+        
+
+    .section-3-h1 h1
+    {
+        font-size: 2.5em;   
+    }
+
+    .section-4-2
+    {
+        display: grid;
+        grid-template-rows:.3fr .3fr ;   
+        
+    }
+
+ 
+    .section-4-main
+
+    {   
+        grid-template-columns: 1fr ;
+    
+    }
+
+    
+    .section-4-1 img
+    {    
+        
+        width: 100%;
+        height: 100%;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    .section-4-2-box-1 p
+    {
+        font-size: 1.5em;
+    }
+
+    .section-4-2-box-2 p
+    {
+        font-size: 1.5em;
+    }
+
+
+    .section-4-2-box-1-1 li, .section-4-2-box-2-1 li
+    {
+        font-size: 1.2em;
+    }
+
+    }
+
+    .section-5-1 h1
+    { 
+        font-size: 2.5em;
+    
+    }
+
+    .section-5-2
+    {
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: .5em;
+        padding-bottom: 2em;
+    }
+
+    .section-5-2 p
+    {
+        font-size: 1em;
+    }
+
+
+
+
+
+@media all and (max-width: 500px) {
+
+
+    .section-2-1
+    
+    {
+    margin: 0;
+    width: 100%;
+    height:  100%;
+    }
+
+    .video-2-1
+    
+    {
+        width: 100%;
+        height: 350px;
+    }
+
+    .section-2-main
+    
+    {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .8fr auto;
+    align-items: center;
+    }
+
+
+    .section-2-2 p , .section-2-2 a
+{
+   
+    font-size:.8em;
+    line-height: 1em;
+
+}
+
+
+.section-2-2-button
+
+{    margin-top: 1em;
+    margin-bottom: 1em;
+     display: block;
+     text-align: center;
+}
+    
+
+
+.section-3
+    {    
+        display: grid;
+        grid-template-rows: auto auto ;
+        background-color:rgb(255, 255, 255);    
+    }
+
+
+
+.section-3-box
+{
+    display: grid;
+    grid-template-columns:  auto ;
+    align-self: center;
+    
+}
+
+
+.section-3-h1 h1
+{
+    font-size: 2em;
+    margin: 0;
+    margin-top: .2em;
+    margin-left: .5em;
+    margin-bottom: 1em;
+}
+
+.section-4-2-box-1 p
+{
+    font-size: 1em;
+}
+
+.section-4-2-box-2 p
+{
+    font-size: 1em;
+}
+
+.section-4-2-box-1-1 ul, .section-4-2-box-2-1 ul
+{
+    padding-left: 0;
+}
+
+.section-5-main
+
+{
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2em;
+    
+}
+
+.section-5-1
+{
+ align-self: center;
+ 
+}
+.section-5-1 h1
+{ 
+font-size: 1.8em;
+}
+
+.section-5-2
+{
+    text-align: center;
+    padding: 0;
+    padding-bottom: 3em;
+}
+
+.section-5-3 .learn-more p
+{
+    font-size: .8em;
+}
+.section-5-3 button .fab.fa-whatsapp
+{
+    font-size: 1em; 
+}
+
+.section-6
+{
+    margin-top: 2em;
+}
+
+.section-6-main
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto ;    
+}
+.section-6-1, .section-6-2, .section-6-3, .section-6-4
+{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+
+}

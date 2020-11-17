@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+#automatic-typing{
+  font-family: 'Quicksand', sans-serif;
+  color: rgb( 132, 196, 65);;
+  font-size:.9em;
+  float: left;
+  margin-left: 2em;
+  margin-top: .5em;
+  text-align: center;
+  font-weight: bold;
+}
